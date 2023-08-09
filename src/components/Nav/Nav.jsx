@@ -4,7 +4,7 @@ import Moon from "../../icons/Moon/Moon";
 
 function Nav() {
   return (
-    <nav className="bg-green-d dark:bg-gray-900 flex flex-row gap-4 justify-between p-3 text-blue-black  cursor-pointer text-lg">
+    <nav className="border-solid border-green-d border-2 flex flex-row gap-4 justify-between p-3 m-3 text-defaultTextColor cursor-pointer text-lg">
       <h1 className="justify-self-start ml-3">DTR</h1>
       <div className="flex flex-row gap-4 mr-3 items-center">
         <h5>About me</h5>

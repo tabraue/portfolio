@@ -16,6 +16,7 @@ export default {
       "violet-d":   "#C8BAD4",
       "white-d":    "#DFDEEC",
       "blue-black": "#122D4A",
+      defaultTextColor: "#122D4A"
     },
     fontFamily: {
       sans: ["monospace", ...defaultTheme.fontFamily.sans],
@@ -26,13 +27,13 @@ export default {
         "Noto Color Emoji",
       ],
     },
-    fontSize: {
+/*     fontSize: {
       sm:   ["14px", "20px"],
       base: ["16px", "24px"],
       lg:   ["20px", "28px"],
       xl:   ["24px", "32px"],
-    },
-
+    }, */
+    color: { },
     backgroundImage: {
       "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
     },
