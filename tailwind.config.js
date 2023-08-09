@@ -13,19 +13,28 @@ export default {
       "green-d":    "#81BB81",
       "blue-l":     "#3A7B99",
       "blue-d":     "#4E6591",
-      'violet-d':   "#C8BAD4",
+      "violet-d":   "#C8BAD4",
       "white-d":    "#DFDEEC",
       "blue-black": "#122D4A",
     },
     fontFamily: {
-      sans:   ["monospace", ...defaultTheme.fontFamily.sans],
-      emoji:  [ "Segoe UI Emoji", "Apple Color Emoji", "Segoe UI Symbol", "Noto Color Emoji"]
+      sans: ["monospace", ...defaultTheme.fontFamily.sans],
+      emoji: [
+        "Segoe UI Emoji",
+        "Apple Color Emoji",
+        "Segoe UI Symbol",
+        "Noto Color Emoji",
+      ],
     },
     fontSize: {
-      sm:   ['14px', '20px'],
-      base: ['16px', '24px'],
-      lg:   ['20px', '28px'],
-      xl:   ['24px', '32px'],
+      sm:   ["14px", "20px"],
+      base: ["16px", "24px"],
+      lg:   ["20px", "28px"],
+      xl:   ["24px", "32px"],
+    },
+
+    backgroundImage: {
+      "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
     },
     dark: "media",
     screens: {

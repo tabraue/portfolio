@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 function Mouse() {
-  const [enabled, setEnabled] = useState(false);
+  const [enabled, setEnabled] = useState(true);
   const [position, setPosition] = useState({ x: 0, y: 0 });
 
   useEffect(() => {
@@ -20,17 +20,8 @@ function Mouse() {
   return (
     <>
       <div
+        className={`absolute bg-gradient-radial from-green-l from-33% via-violet-d via-66% to-transparent to-60% rounded-full opacity-20 pointer-events-none left-[-100px] top-[-100px] w-52 h-52`}
         style={{
-          position: "absolute",
-          backgroundColor: "rgba(0, 0, 0, 0.5)",
-          border: "1px solid #fff",
-          borderRadius: "50%",
-          opacity: 0.8,
-          pointerEvents: "none",
-          left: -25,
-          top: -25,
-          width: 40,
-          height: 40,
           transform: `translate(${position.x}px, ${position.y}px)`,
         }}
       />
