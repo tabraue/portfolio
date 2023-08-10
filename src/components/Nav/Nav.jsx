@@ -7,11 +7,13 @@ function Nav() {
     <nav className="border-solid border-green-d border-2 flex flex-row gap-4 justify-between p-3 m-3 text-defaultTextColor cursor-pointer text-lg ">
       <h1 className="justify-self-start ml-3 hover:text-blue-l">DTR</h1>
       <div className="flex flex-row gap-4 mr-3 items-center">
-        <h5 className="hover:text-blue-l">About me</h5>
+        <h5 className="hover:text-blue-l">Sobre mí</h5>
         <span>|</span>
-        <h5 className="hover:text-blue-l">Projects</h5>
+        <h5 className="hover:text-blue-l">Proyectos</h5>
         <span>|</span>
-        <h5 className="hover:text-blue-l">Contact</h5>
+        <h5 className="hover:text-blue-l">Tecnologías</h5>
+        <span>|</span>
+        <h5 className="hover:text-blue-l">Contacto</h5>
         <Moon />
         <button
           data-tooltip-target="tooltip-english"
