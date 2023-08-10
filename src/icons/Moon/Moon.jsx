@@ -1,9 +1,10 @@
 import React from "react";
 
 function Moon() {
+  //fill="currentColor" if hover ??
   return (
     <svg
-      className="w-3 h-6 text-blue-black dark:text-white cursor-pointer"
+      className="w-3 h-6 text-defaultTextColor hover:text-blue-l cursor-pointer"
       aria-hidden="true"
       xmlns="http://www.w3.org/2000/svg"
       fill="none"

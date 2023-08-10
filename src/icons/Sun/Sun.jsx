@@ -3,7 +3,7 @@ import React from "react";
 function Sun() {
   return (
     <svg
-      className="w-3 h-6 text-blue-black dark:text-white"
+      className="w-3 h-6 text-defaultTextColor hover:text-yellow-400 cursor-pointer"
       aria-hidden="true"
       xmlns="http://www.w3.org/2000/svg"
       fill="none"

@@ -1,13 +1,10 @@
-/* @tailwind base;
-@tailwind components;
-@tailwind utilities; */
-
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-/* @layer base {
-  html {
-    font-family: monospace, Helvetica, system-ui, sans-serif;
-  }
-} */
+.txt-gradient {
+  background-color: #88C8A0;
+  background-image: linear-gradient(to right, #88C8A0 15%, #3A7B99 36%, #C8BAD4 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
